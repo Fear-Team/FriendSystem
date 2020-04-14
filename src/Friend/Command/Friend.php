@@ -142,7 +142,7 @@ class Friend extends PluginCommand{
 			    $arkadaslaro[] = $g->getName();
 			    $kisio->set("arkadaslari", $arkadaslaro);
 			    $kisio->save(); 
-			    $o->sendMessage("§2".$o->getName()." §aarkadaşlık isteğini kabul etti!");
+			    $o->sendMessage("§2".$g->getName()." §aarkadaşlık isteğini kabul etti!");
 			}else{
 				$g->sendMessage("§aOyuncu oyunda değil!");
 			}
