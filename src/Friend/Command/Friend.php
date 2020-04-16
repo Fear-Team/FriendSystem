@@ -63,6 +63,7 @@ class Friend extends PluginCommand{
 		$form = new CustomForm(function(Player $g, $args){
 			if($args === null){
 				$this->arkadasMenu($g);
+				return true;
 			}
 			$oy = $this->list[$args[0]];
 			$o = $this->p->getServer()->getPlayer($oy);
@@ -87,6 +88,7 @@ class Friend extends PluginCommand{
 			$form = new CustomForm(function(Player $g, $args){
 				if($args === null){
 				    $this->arkadasMenu($g);
+				    return true;
 			    }
 			    $o = $this->alist[$args[0]];
 			    if(!$this->p->getServer()->getPlayer($o) == null){
@@ -123,6 +125,7 @@ class Friend extends PluginCommand{
 			$form = new CustomForm(function(Player $g, $args){
 				if($args === null){
 				    $this->arkadasMenu($g);
+					return true;
 			    }
 			    $oy = $this->ilist[$args[0]];
 			    if(!$this->p->getServer()->getPlayer($oy) == null){
@@ -163,6 +166,7 @@ class Friend extends PluginCommand{
 			$form = new CustomForm(function(Player $g, $args){
 				if($args === null){
 				    $this->arkadasMenu($g);
+					return true;
 			    }
 
 			    $oy = $this->alist[$args[0]];
