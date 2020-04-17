@@ -6,7 +6,7 @@ use pocketmine\command\PluginCommand;
 use pocketmine\command\CommandSender;
 use Friend\Main;
 use pocketmine\utils\Config;
-use jojoe77777\FormAPI\{SimpleForm, ModalForm, CustomForm};
+use Friend\jojoe77777\FormAPI\{SimpleForm, ModalForm, CustomForm};
 use pocketmine\Player;
 class Friend extends PluginCommand{
 
